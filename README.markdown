@@ -7,11 +7,9 @@ James Fryman <james@frymanet.com>
 This class manages inittab entries on Linux systems
 
 # Sample Usage:
-      <pre>
       inittab { 'x':
         ensure   => 'present',
         runlevel => '345',
         action   => 'respawn',
         command  => '/etc/X11/prefdm -nodaemon',
       }
-      </pre>
