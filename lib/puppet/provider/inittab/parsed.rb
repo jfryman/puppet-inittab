@@ -1,4 +1,4 @@
-require 'puppet/provider/parsedfile'
+﻿require 'puppet/provider/parsedfile'
 inittab_file = '/etc/inittab'
 
 Puppet::Type.type(:inittab).provide(

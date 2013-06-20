@@ -1,4 +1,4 @@
-Puppet::Type.newtype(:inittab) do
+﻿Puppet::Type.newtype(:inittab) do
   @doc = "Management of inittab entries
   inittab { 'x':
     ensure   => present,
@@ -42,6 +42,4 @@ Puppet::Type.newtype(:inittab) do
   newproperty(:command) do
     desc "Specifies the process to be executed. If the process field starts with a ‘+’ character, init will not do utmp and wtmp accounting for that process.  This is needed for gettys that insist on doing their own utmp/wtmp housekeeping."
   end
-  
-
 end
