@@ -1,4 +1,4 @@
-﻿Puppet::Type.newtype(:inittab) do
+Puppet::Type.newtype(:inittab) do
   @doc = "Management of inittab entries
   inittab { 'x':
     ensure   => present,
